@@ -77,7 +77,3 @@ venv/Scripts/python.exe -m pytest tests -q
 81 Tests; die Laufzeit schwankt mit der Rechnerlast. Die Kennzahlen der Beispiele (Operationen, Pfade, Schemas) sind von Hand aus den Dateien gezählt; die
 Gegenprobe zum Lesen ist die Standardbibliothek (`json`): das als JSON ausgegebene Ergebnis ergibt beim erneuten Lesen dieselbe Spezifikation.
 Die AppTests lesen die Konfiguration der Swagger UI aus der Adresse des Rahmens und prüfen, dass jeder Schalter dort ankommt und die Demo nichts sendet.
-
-## Lizenz
-
-MIT, siehe [LICENSE](LICENSE). Die Swagger UI (Apache-2.0) wird zur Laufzeit vom CDN jsDelivr geladen und ist nicht Teil dieses Repos.
